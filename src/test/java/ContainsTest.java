@@ -22,7 +22,7 @@ public class ContainsTest {
         Assert.assertEquals(expected, c.arrayContains(input, target));
     }
     /**
-     * Given an array {0,1,2,3,4} and a value 5, arrayContains should return true because the array contains
+     * Given an array {0,1,2,3,4} and a value 4, arrayContains should return true because the array contains
      * the value.
      */
     @Test

@@ -2,6 +2,8 @@
 
 public class Contains {
 
+   
+
     /**
      * This method should search an array to see if that array contains some value.
      * You will need to use a for loop to check every value of the array to see if it matches the target value.
@@ -11,6 +13,25 @@ public class Contains {
      * @return true if arr contains target, false otherwise.
      */
     public boolean arrayContains(int[] arr, int target){
-        return false;
+        
+        boolean test = false;
+
+        for (int i = 0; i < arr.length; i++){
+            if (arr[i] == target){
+                test = true;
+                break;
+
+            } 
+        }          
+                
+        return test;
     }
 }
+     /* for ( int element : arr){
+                if (element == target){                   
+                    test = true;                                
+              } else {
+                test = false;
+            }
+        } */
+    
